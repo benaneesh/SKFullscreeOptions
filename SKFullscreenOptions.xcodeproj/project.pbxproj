@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBE740891A49DAFA00C589BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE740881A49DAFA00C589BD /* AppDelegate.swift */; };
+		FBE7408B1A49DAFA00C589BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7408A1A49DAFA00C589BD /* ViewController.swift */; };
+		FBE7408E1A49DAFA00C589BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FBE7408C1A49DAFA00C589BD /* Main.storyboard */; };
+		FBE740901A49DAFA00C589BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE7408F1A49DAFA00C589BD /* Images.xcassets */; };
+		FBE740931A49DAFA00C589BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE740911A49DAFA00C589BD /* LaunchScreen.xib */; };
+		FBE7409F1A49DAFA00C589BD /* SKFullscreenOptionsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE7409E1A49DAFA00C589BD /* SKFullscreenOptionsTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBE740991A49DAFA00C589BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBE7407B1A49DAF900C589BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBE740821A49DAFA00C589BD;
+			remoteInfo = SKFullscreenOptions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBE740831A49DAFA00C589BD /* SKFullscreenOptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SKFullscreenOptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE740871A49DAFA00C589BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE740881A49DAFA00C589BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FBE7408A1A49DAFA00C589BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FBE7408D1A49DAFA00C589BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FBE7408F1A49DAFA00C589BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FBE740921A49DAFA00C589BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		FBE740981A49DAFA00C589BD /* SKFullscreenOptionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SKFullscreenOptionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBE7409D1A49DAFA00C589BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FBE7409E1A49DAFA00C589BD /* SKFullscreenOptionsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SKFullscreenOptionsTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBE740801A49DAFA00C589BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE740951A49DAFA00C589BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBE7407A1A49DAF900C589BD = {
+			isa = PBXGroup;
+			children = (
+				FBE740851A49DAFA00C589BD /* SKFullscreenOptions */,
+				FBE7409B1A49DAFA00C589BD /* SKFullscreenOptionsTests */,
+				FBE740841A49DAFA00C589BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBE740841A49DAFA00C589BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBE740831A49DAFA00C589BD /* SKFullscreenOptions.app */,
+				FBE740981A49DAFA00C589BD /* SKFullscreenOptionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBE740851A49DAFA00C589BD /* SKFullscreenOptions */ = {
+			isa = PBXGroup;
+			children = (
+				FBE740881A49DAFA00C589BD /* AppDelegate.swift */,
+				FBE7408A1A49DAFA00C589BD /* ViewController.swift */,
+				FBE7408C1A49DAFA00C589BD /* Main.storyboard */,
+				FBE7408F1A49DAFA00C589BD /* Images.xcassets */,
+				FBE740911A49DAFA00C589BD /* LaunchScreen.xib */,
+				FBE740861A49DAFA00C589BD /* Supporting Files */,
+			);
+			path = SKFullscreenOptions;
+			sourceTree = "<group>";
+		};
+		FBE740861A49DAFA00C589BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE740871A49DAFA00C589BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FBE7409B1A49DAFA00C589BD /* SKFullscreenOptionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7409E1A49DAFA00C589BD /* SKFullscreenOptionsTests.swift */,
+				FBE7409C1A49DAFA00C589BD /* Supporting Files */,
+			);
+			path = SKFullscreenOptionsTests;
+			sourceTree = "<group>";
+		};
+		FBE7409C1A49DAFA00C589BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FBE7409D1A49DAFA00C589BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBE740821A49DAFA00C589BD /* SKFullscreenOptions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE740A21A49DAFA00C589BD /* Build configuration list for PBXNativeTarget "SKFullscreenOptions" */;
+			buildPhases = (
+				FBE7407F1A49DAFA00C589BD /* Sources */,
+				FBE740801A49DAFA00C589BD /* Frameworks */,
+				FBE740811A49DAFA00C589BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SKFullscreenOptions;
+			productName = SKFullscreenOptions;
+			productReference = FBE740831A49DAFA00C589BD /* SKFullscreenOptions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBE740971A49DAFA00C589BD /* SKFullscreenOptionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBE740A51A49DAFA00C589BD /* Build configuration list for PBXNativeTarget "SKFullscreenOptionsTests" */;
+			buildPhases = (
+				FBE740941A49DAFA00C589BD /* Sources */,
+				FBE740951A49DAFA00C589BD /* Frameworks */,
+				FBE740961A49DAFA00C589BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBE7409A1A49DAFA00C589BD /* PBXTargetDependency */,
+			);
+			name = SKFullscreenOptionsTests;
+			productName = SKFullscreenOptionsTests;
+			productReference = FBE740981A49DAFA00C589BD /* SKFullscreenOptionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBE7407B1A49DAF900C589BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Ben Aneesh";
+				TargetAttributes = {
+					FBE740821A49DAFA00C589BD = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					FBE740971A49DAFA00C589BD = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = FBE740821A49DAFA00C589BD;
+					};
+				};
+			};
+			buildConfigurationList = FBE7407E1A49DAF900C589BD /* Build configuration list for PBXProject "SKFullscreenOptions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBE7407A1A49DAF900C589BD;
+			productRefGroup = FBE740841A49DAFA00C589BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBE740821A49DAFA00C589BD /* SKFullscreenOptions */,
+				FBE740971A49DAFA00C589BD /* SKFullscreenOptionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBE740811A49DAFA00C589BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE7408E1A49DAFA00C589BD /* Main.storyboard in Resources */,
+				FBE740931A49DAFA00C589BD /* LaunchScreen.xib in Resources */,
+				FBE740901A49DAFA00C589BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE740961A49DAFA00C589BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBE7407F1A49DAFA00C589BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE7408B1A49DAFA00C589BD /* ViewController.swift in Sources */,
+				FBE740891A49DAFA00C589BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBE740941A49DAFA00C589BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBE7409F1A49DAFA00C589BD /* SKFullscreenOptionsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBE7409A1A49DAFA00C589BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBE740821A49DAFA00C589BD /* SKFullscreenOptions */;
+			targetProxy = FBE740991A49DAFA00C589BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FBE7408C1A49DAFA00C589BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE7408D1A49DAFA00C589BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FBE740911A49DAFA00C589BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FBE740921A49DAFA00C589BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FBE740A01A49DAFA00C589BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBE740A11A49DAFA00C589BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBE740A31A49DAFA00C589BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFullscreenOptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FBE740A41A49DAFA00C589BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SKFullscreenOptions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		FBE740A61A49DAFA00C589BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKFullscreenOptionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFullscreenOptions.app/SKFullscreenOptions";
+			};
+			name = Debug;
+		};
+		FBE740A71A49DAFA00C589BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SKFullscreenOptionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SKFullscreenOptions.app/SKFullscreenOptions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBE7407E1A49DAF900C589BD /* Build configuration list for PBXProject "SKFullscreenOptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE740A01A49DAFA00C589BD /* Debug */,
+				FBE740A11A49DAFA00C589BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBE740A21A49DAFA00C589BD /* Build configuration list for PBXNativeTarget "SKFullscreenOptions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE740A31A49DAFA00C589BD /* Debug */,
+				FBE740A41A49DAFA00C589BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FBE740A51A49DAFA00C589BD /* Build configuration list for PBXNativeTarget "SKFullscreenOptionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBE740A61A49DAFA00C589BD /* Debug */,
+				FBE740A71A49DAFA00C589BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBE7407B1A49DAF900C589BD /* Project object */;
+}
